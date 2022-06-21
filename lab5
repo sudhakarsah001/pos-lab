@@ -1,0 +1,16 @@
+Experiment 5: Write a program to print 10 9 8 7 6 5 4 3 2 1 
+# using for loop 
+# using while loop 
+echo "Using for loop... "  
+for (( i=10; i>0; i-- )) 
+do 
+echo -n "$i " done 
+echo "" 
+echo "Using while loop..."  
+j=10 
+while [ $j -ge1 ] 
+do 
+echo -n "$j " 
+j=$(( j - 1 )) # decrease number by 1 done 
+echo "" 
+done 
