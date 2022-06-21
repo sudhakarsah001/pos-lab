@@ -1,0 +1,8 @@
+Experiment 3: 
+Write a program that accepts username and reports if the user is logged in. 
+echo “Enter the username” read a 
+who >userlist 
+if grep $a userlist then 
+echo “user logged on” else 
+echo “user not logged on” 
+fi 
