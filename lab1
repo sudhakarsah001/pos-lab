@@ -1,0 +1,25 @@
+Sl. No.	Command	Example	Description
+1	ls	ls
+ls -alF	Lists files in the current directory List in long format
+2	cd	cd tempdir cd ..
+cd
+~system/mydirectory	Change directory to tempdir
+Move back one directory
+Move into system's mydirectory directory
+3	mkdir	mkdir graphics	Make a directory called graphics
+4	rmdir	rmdir graphics	Remove directory (must be empty)
+5	cp	cp file1 web-docs cp file1 file1.bak	Copy file into directory Make backup of file1
+6	rm	rm file1.bak rm *.tmp	Remove or delete file1
+Remove all files
+7	mv	mv old.html new.html mv file "new file path" mv dir1 dir2	Move or rename files
+Moves the files to the new location Renames dir1 to dir2
+8	more	more index.html	Look at file, one page at a time
+9	lpr	lpr index.html	Send file to printer
+10	man	man ls	Online manual (help) about command
+11	grep
+<str><files>	grep "ABC" *	Find which files contain a certain word (e.g. “ABC”)
+12	who	who	Lists who is logged on your machine
+13	cat	cat filename cat > filename
+cat file1 file2 > file3	Displays the contents of the given file. Creates new file.
+Joins two files (file1, file2) and stores the output in a new file (file3)
+
