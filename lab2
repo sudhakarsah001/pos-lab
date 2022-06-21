@@ -1,0 +1,5 @@
+Experiment 2: Basic functionality and modes of VI editor
+Follow the following steps in each case to execute the programs:
+1. To write the programs, create new files for each program by writing in the command prompt: vi filename.
+2. Write the program as plain text (in Insert mode). 
+3. Save the file and exit 4. Run the file by giving following command in the command prompt: sh filename.
