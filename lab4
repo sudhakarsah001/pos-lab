@@ -1,0 +1,21 @@
+Write a program which displays the following menu and executes the option  selected by the user: 
+i) ls 
+ii) pwd 
+iii) who 
+iv) ls -l 
+v) ps -fe 
+echo “Enter your choice:” 
+echo “1 for listing directory content” 
+echo “2 for print name of the current directory” 
+echo “3 for show who is logged on” 
+echo “4 for show directory content listing format” 
+echo “5 for listing current processes” 
+read ch 
+case $ch in 
+1) ls;; # lists directory content 
+2) pwd;; # prints name of the current directory 
+3) who;; # shows who is logged on 
+4) ls -l;; # shows directory content listing format 
+5) ps – fe;; # The -e option generates a list of information about every process currently  running. The -f option generates a listing that contains fewer items of information for each  process than the -l option. 
+*) echo “Invalid choice. Try again.”
+esac 
